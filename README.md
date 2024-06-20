@@ -5,45 +5,44 @@
 </p>
 
 <h1 align="center">
-  Chromatic's Intro to Storybook React template
+  Chromatic의 스토리북 리액트 템플릿 소개
 </h1>
 
-This template ships with the main React and Storybook configuration files you'll need to get up and running fast.
+이 템플릿은 빠르게 시작하고 실행하는 데 필요한 기본 React 및 스토리북 구성 파일과 함께 제공됩니다.
 
 ## 🚅 Quick start
 
-1.  **Create the application.**
+1.  **애플리케이션을 만듭니다.**
 
-    Use [degit](https://github.com/Rich-Harris/degit) to get this template.
+    이 템플릿을 얻으려면 [degit](https://github.com/Rich-Harris/degit) 을 사용합니다.
 
     ```shell
-    # Clone the template
+    # 템플릿 복제하기
     npx degit chromaui/intro-storybook-react-template taskbox
     ```
 
-1.  **Install the dependencies.**
+1.  **종속 요소를 설치합니다.**
 
-    Navigate into your new site’s directory and install the necessary dependencies.
+    새 사이트의 디렉토리로 이동하여 필요한 종속성을 설치합니다.
 
     ```shell
-    # Navigate to the directory
+    # 디렉토리로 이동
     cd taskbox/
 
-    # Install the dependencies
+    # 종속성 설치
     yarn
     ```
 
-1.  **Open the source code and start editing!**
+1.  **소스코드를 열고 편집을 시작합니다!**
 
-    Open the `taskbox` directory in your code editor of choice and building your first component!
+    선택한 코드 편집기에서 `taskbox` 디렉토리를 열고 첫 번째 컴포넌트를 빌드합니다!
 
-1.  **Browse your stories!**
-
-    Run `yarn storybook` to see your component's stories at `http://localhost:6006`
+1.  **스토리 찾아보기!**
+    `yarn storybook`을 실행하여 `http://localhost:6006`에서 컴포넌트들의 스토리를 확인하세요.
 
 ## 🔎 What's inside?
 
-A quick look at the top-level files and directories included with this template.
+이 템플릿에 포함된 최상위 파일과 디렉터리를 간략히 살펴보세요.
 
     .
     ├── .storybook
@@ -59,36 +58,36 @@ A quick look at the top-level files and directories included with this template.
     ├── vite.config.js
     └── README.md
 
-1.  **`.storybook`**: This directory contains Storybook's [configuration](https://storybook.js.org/docs/react/configure/overview) files.
+1.  **`.storybook`**: 이 디렉터리에는 스토리북의 [configuration](https://storybook.js.org/docs/react/configure/overview) 파일이 들어 있습니다..
 
-2.  **`node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages).
+2.  **`node_modules`**: 이 디렉터리에는 프로젝트가 의존하는 모든 코드 모듈(npm 패키지)이 포함되어 있습니다.
 
-3.  **`public`**: This directory will contain the development and production build of the site.
+3.  **`public`**: 이 디렉터리에는 사이트의 개발 및 프로덕션 빌드가 포함됩니다.
 
-4.  **`src`**: This directory will contain all of the code related to what you will see on your application.
+4.  **`src`**: 이 디렉토리에는 애플리케이션에 표시되는 것과 관련된 모든 코드가 포함됩니다.
 
-5.  **`.eslintrc.cjs`**: This file is the configuration file for [ESLint](https://eslint.org/), a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
+5.  **`.eslintrc.cjs`**: 이 파일은 ECMAScript/JavaScript 코드에서 발견되는 패턴을 식별하고 보고하는 도구인 [ESLint](https://eslint.org/)의 구성 파일입니다.
 
-6.  **`.gitignore`**: This file tells git which files it should not track or maintain during the development process of your project.
+6.  **`.gitignore`**: 이 파일은 프로젝트 개발 과정에서 추적하거나 유지 관리해서는 안 되는 파일을 git에 알려줍니다.
 
-7.  **`.index.html`**: This is the HTML page that is served when generating a development or production build.
+7.  **`.index.html`**: 개발 또는 프로덕션 빌드를 생성할 때 제공되는 HTML 페이지입니다.
 
-8.  **`LICENSE`**: The template is licensed under the MIT licence.
+8.  **`LICENSE`**: 템플릿은 MIT 라이선스에 따라 라이선스가 부여됩니다.
 
-9.  **`package.json`**: Standard manifest file for Node.js projects, which typically includes project specific metadata (such as the project's name, the author among other information). It's based on this file that npm will know which packages are necessary to the project.
+9.  **`package.json`**: 일반적으로 프로젝트별 메타데이터(예: 프로젝트 이름, 작성자 등 기타 정보)를 포함하는 Node.js 프로젝트의 표준 매니페스트 파일입니다. npm은 이 파일을 기반으로 프로젝트에 필요한 패키지를 파악합니다.
 
-10. **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(Do not change it manually).**
+10. **`yarn.lock`**: 이 파일은 프로젝트에 설치된 npm 종속 요소의 정확한 버전을 기반으로 자동으로 생성되는 파일입니다. **(수동으로 변경하지 마세요).**
 
-11. **`vite.config.js`**: This is the configuration file for [Vite](https://vitejs.dev/), a build tool that aims to provide a faster and leaner development experience for modern web projects.
+11. **`vite.config.js`**: 최신 웹 프로젝트에 더 빠르고 간결한 개발 환경을 제공하는 것을 목표로 하는 빌드 도구인 [Vite](https://vitejs.dev/)의 설정 파일입니다.
 
-12. **`README.md`**: A text file containing useful reference information about the project.
+12. **`README.md`**: 프로젝트에 대한 유용한 참조 정보가 포함된 텍스트 파일입니다.
 
 ## Contribute
 
-If you encounter an issue with the template, we encourage you to open an issue in this template's repository.
+템플릿에 문제가 발생하면 이 템플릿의 리포지토리에서 문제를 제기하는 것이 좋습니다.
 
 ## Learning Storybook
 
-1. Read our introductory tutorial at [Learn Storybook](https://storybook.js.org/tutorials/intro-to-storybook/react/en/get-started/).
-2. Learn how to transform your component libraries into design systems in our [Design Systems for Developers](https://storybook.js.org/tutorials/design-systems-for-developers/) tutorial.
-3. See our official documentation at [Storybook](https://storybook.js.org/).
+1. [Learn Storybook](https://storybook.js.org/tutorials/intro-to-storybook/react/en/get-started/)에서 입문 튜토리얼을 읽어보세요..
+2. [Design Systems for Developers](https://storybook.js.org/tutorials/design-systems-for-developers/) 튜토리얼에서 컴포넌트 라이브러리를 디자인 시스템으로 변환하는 방법을 알아보세요..
+3. [Storybook](https://storybook.js.org/) 공식 문서를 참조하세요..
